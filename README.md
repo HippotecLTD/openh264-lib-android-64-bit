@@ -10,6 +10,7 @@ This makes them quite useless since Google is [enforcing 64-bit](https://develop
 
 ## The "how?"
 All binaries in this repo were compiled from the corrsponding source, using the following commands:
+
 `make OS=android NDKROOT=/Users/vaiden/dev/tools/android-ndk-r17c TARGET=android-28 ARCH=arm64 NDKLEVEL=28 NDK_TOOLCHAIN_VERSION=clang`
 
 And
